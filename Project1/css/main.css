@@ -7,7 +7,7 @@ body {
 }
 
 /* Header */
-.header h4 {
+header h4 {
 	font-weight: 300;
 	font-size: 22px;
 }
@@ -25,10 +25,6 @@ body {
 	border-top: 2px solid #bcbbbb !important;
 }
 
-#featured-work {
-	margin-top: 20px;
-}
-
 .text-muted {
 	color: #bcbbbb;
 }
@@ -38,10 +34,17 @@ body {
 }
 
 .text-link {
-	text-decoration: none !important;
 	cursor: pointer;
+}
+
+.text-link, .text-link:hover {
+	text-decoration: none;
 }
 
 .work-header {
 	font-size: 36px;
+}
+
+.modal-body p {
+	margin: 5px 0;
 }
