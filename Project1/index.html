@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Site</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="EI=edge">
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:400,300,100" rel="stylesheet" type="text/css">
+
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header">
+                <div class="col-md-6">
+                    <a href="#"><img class="title-logo" class="logo" src="img/udacity-logo.jpg" alt="Udacity logo"></a>
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="text-thin title-super">Jane Doette</h1>
+                    <h4>Front-end Ninja</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <hr class="separator">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="img/main-image.jpeg" alt="Main image">
+                </div>
+            </div>
+
+            <div class="row featured-work">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured Work</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img class="img-responsive" src="img/image1.jpg" alt="Appify" data-toggle="modal" data-target="#appify">
+                    <h3 class="text-uppercase work-header">Appify</h3>
+                    <a href="#" class="text-muted text-link">https://github.com/udacity/Appify/</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-responsive" src="img/image2.jpg" alt="Sunflower" data-toggle="modal" data-target="#sunflower">
+                    <h3 class="text-uppercase work-header">Sunflower</h3>
+                    <a href="#" class="text-muted text-link">https://github.com/udacity/Sunflower/</a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-responsive" src="img/image3.jpg" alt="Bokeh" data-toggle="modal" data-target="#bokeh">
+                    <h3 class="text-uppercase work-header">Bokeh</h3>
+                    <a href="#" class="text-muted text-link">https://github.com/udacity/Bokeh/</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="appifyLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="appifyLabel">Appify</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/image1.jpg" alt="Appify">
+                        This is incredible iOS app.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="sunflower" tabindex="-1" role="dialog" aria-labelledby="sunflowerLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="sunflowerLabel">Sunflower</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/image2.jpg" alt="Sunflower">
+                        This site about sunflowers.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="bokeh" tabindex="-1" role="dialog" aria-labelledby="bokehLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="bokehLabel">Bokeh</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="img/image3.jpg" alt="Bokeh">
+                        This site about photography.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
